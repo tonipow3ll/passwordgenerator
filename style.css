@@ -8,3 +8,10 @@ body {
 div.button{
     align-items: center;
 }
+.card {
+    align-items: center;
+    max-width: 75%;
+}
+h1{
+    align-items: center;
+}
