@@ -1,0 +1,10 @@
+body {
+    background-color: darkslategrey;
+    color: honeydew;
+}
+.container-fluid{
+    background-color: #bbbbbb;
+}
+div.button{
+    align-items: center;
+}
