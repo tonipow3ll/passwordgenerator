@@ -1,12 +1,22 @@
 // Assignment Code
-var generateBtn = document.querySelector("#generate");
+// var generateBtn = document.querySelector("#generate");
 
-input.value = writePassword();
+// input.value = writePassword();
+
 // Write password to the #password input
 function writePassword() {
-const availableCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890"
+let complexity = document.getElementById("userchoicenumber").value;
+let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
 
-  var password = generatePassword();
+let password = "";
+
+// loop to generate password
+for(var i = 0; i <= complexity; i++){
+    password = password + values.charAt(Math.floor(Math.random() * Math.floor(value.length - 1)));
+}
+//   add password to textbox / display area
+
+document.getElementById(finalPassword).value = password;
 
 
 
@@ -17,4 +27,4 @@ const availableCharacters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+// generateBtn.addEventListener("click", writePassword);
