@@ -1,9 +1,10 @@
-// Assignment Code
-// var generateBtn = document.querySelector("#generate");
 
+const userRange = document.getElementById ('userrange');
+const userNumber = document.getElementById ('usernumber');
 // input.value = writePassword();
 document.getElementById("displayPW");
-//  getElementById("generate").addEventListener('click' , writePassword())
+userRange.addEventListener('input', syncuserrange);
+userNumber.addEventListener('input', syncusernumber);
 const area = writePassword();
 
 // Write password to the #password input
