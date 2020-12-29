@@ -1,3 +1,6 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
 body {
     background-color: darkslategrey;
     color: honeydew;
@@ -15,3 +18,9 @@ div.button{
 h1{
     align-items: center;
 }
+.user-input{
+    max-width: 3rem;
+}
+/* .far{
+    font-family: 'Roboto', sans-serif;
+} */

@@ -1,8 +1,6 @@
-
+// links range slider / input box 
 const userRange = document.getElementById ('userRange');
 const userNumber = document.getElementById ('userNumber');
-// input.value = writePassword();
-
 userRange.addEventListener('input', matchingNumbers);
 userNumber.addEventListener('input', matchingNumbers);
 
@@ -12,20 +10,19 @@ function matchingNumbers(e){
     userNumber.value = value
 }
 
-
 // document.getElementById("displayPW");
-const area = writePassword();
+const area = writePassword(onClick);
 // Write password to the #password input
 function writePassword() {
     // add slider here also, below links number input to value
     let complexity = document.getElementById("userNumber").value;
 
-    let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
+    let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890?<>^&*()}|]!@#$%/";
     
     let password = "";
     
     // loop to generate password
-    for(var i = 0; i <= complexity; i++){
+    for(var i = 0; i < complexity; i++){
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
         
         // return password;
