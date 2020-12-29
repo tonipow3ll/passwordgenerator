@@ -1,16 +1,24 @@
 
-const userRange = document.getElementById ('userrange');
-const userNumber = document.getElementById ('usernumber');
+const userRange = document.getElementById ('userRange');
+const userNumber = document.getElementById ('userNumber');
 // input.value = writePassword();
-document.getElementById("displayPW");
-userRange.addEventListener('input', syncuserrange);
-userNumber.addEventListener('input', syncusernumber);
-const area = writePassword();
 
+userRange.addEventListener('input', matchingNumbers);
+userNumber.addEventListener('input', matchingNumbers);
+
+function matchingNumbers(e){
+    const value = e.target.value
+    userRange.value = value
+    userNumber.value = value
+}
+
+
+// document.getElementById("displayPW");
+const area = writePassword();
 // Write password to the #password input
 function writePassword() {
     // add slider here also, below links number input to value
-    let complexity = document.getElementById("usernumber").value;
+    let complexity = document.getElementById("userNumber").value;
 
     let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890";
     
