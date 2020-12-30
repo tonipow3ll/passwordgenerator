@@ -1,14 +1,15 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    /* background: #708090; */
 }
-body {
-    background-color: darkslategrey;
-    color: honeydew;
+/* styles 'body' of generator */
+main, div, div.card{
+    /* max-width:75%; */
+    align-content: center;
+    /* background-color: chartreuse; */
 }
-.container-fluid{
-    background-color: #bbbbbb;
-}
+
 div.button{
     align-items: center;
 }
@@ -28,4 +29,17 @@ h1{
 
 button{
     border: transparent;
+}
+
+#generate{
+    border-radius: 5rem;
+    background-color: #5bc0de;
+    padding: 1rem;
+    margin-top: 1rem;
+    /* color: #ffffff;  */
+}
+
+.button-text{
+font-family: 'Roboto';
+
 }
