@@ -12,42 +12,43 @@
 </head>
 
 <body>
-  <!-- organize below, make semantic HTML  -->
+  <!-- generator below all contained in 'main' -->
 <main class="container py-5 px-5">
     <section class="card mx-auto py-5">
         <header>
         <h1 class="text-center">Password Generator</h1>
-         </header>
-        <div class="card-body">
+        </header>
+            <section class="card-body">
                 <h6 class="card-subtitle mb-2">Please note: the recommended password length is between 8-24 characters</h6>
                   <div class="password card-footer text-center">
-                       <div>
+                      <!-- text area -->
+                        <div>
                            <input class="form-control my-3 text-wrap" type="text" placeholder="password will appear here" aria-label="Password" id="displayPW" readonly>
                            <button onclick="copyToClipboard()" class="far fa-copy fa-lg"><span class="button-text">Copy to Clipboard</span></button>
-                         </div>
-                         <form id="potatoes">
-                             <p class="py-1">Password Length</p>
-                             <input type="range" min="8" max="128" id="userRange" value="13">
-                             <input type="number" min="8" max="128" id="userNumber" value="13">
-                                <div>
-                                <!-- <button id="generate" type="submit" class="btn btn-info border-top my-3">Generate</button> -->
-                                <button id="generate" type="submit" class="fas fa-key"><span id="gbtn" class="button-text">Generate</span></button>
-                                </div>
-                        </form>
-                       </div>
+                        </div>
+                         <!-- user input area, range slider -->
+                            <form id="potatoes">
+                                 <p class="py-1">Password Length</p>
+                                 <input type="range" min="8" max="128" id="userRange" value="13">
+                                 <input type="number" min="8" max="128" id="userNumber" value="13">
+                             <!-- generate button below -->
+                                 <div>
+                                      <button id="generate" type="submit" class="fas fa-key"><span id="gbtn" class="button-text">Generate</span></button>
+                                 </div>
+                            </form>
                     </div>
-                </section>
-            </main>
-            <script src="script.js"></script>
+             </section>
+     </section>
+</main>
+    <script src="script.js"></script>
+            <!-- Footer below -->
+    <footer class="footer mt-auto py-3 fixed-bottom">
+         <div class="container text-center">
+            <a href="https://www.linkedin.com/in/tonipowell13" class="fab fa-linkedin-in fa-2x"></a>
+            <a href="https://tonipow3ll.github.io/" class="fab fa-github fa-2x"></a>
+        </div>
+    </footer>
 
-            <footer class="footer mt-auto py-3 fixed-bottom">
-                <div class="container text-center">
-                    <a href="https://www.linkedin.com/in/tonipowell13" class="fab fa-linkedin-in fa-2x"></a>
-                    <a href="https://tonipow3ll.github.io/" class="fab fa-github fa-2x"></a>
-                    <!-- <span>stuff goes here</span> -->
-                </div>
-            </footer>
-
-        </body>
+ </body>
 
 </html>
