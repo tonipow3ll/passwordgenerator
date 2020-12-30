@@ -19,7 +19,7 @@ form.addEventListener("submit" , function(e){
 });
 
 
-console.log(form.querySelector("#generate"));
+// console.log(form.querySelector("#generate"));
 
 
 
