@@ -1,3 +1,4 @@
+
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -24,3 +25,7 @@ h1{
 /* .far{
     font-family: 'Roboto', sans-serif;
 } */
+
+button{
+    border: transparent;
+}
