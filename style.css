@@ -1,52 +1,76 @@
 
-*{
-    font-family: 'Roboto', sans-serif;
+html body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: #2c3e50;
+}
+h1{
+    color: #95a5a6;
+}
+p{
+    font-size: large;
+}
+section.card{
+    background-color: #34495e;
 }
 /* styles 'body' of generator */
 
-main, div, div.card{
+main, div, .card, h1{
     /* max-width:75%; */
     align-content: center;
-    /* background-color: chartreuse; */
+    /* background-color: #34495e; */
 }
 
 .card {
     align-items: center;
     max-width: 75%;
+    border-radius: 5rem;
 }
 
  button{
     border: transparent;
  } 
-
- form #generate:hover{
-    background-color: black;
-}
-
-#generate{
+ #generate{
     border-radius: 5rem;
-    background-color: #5bc0de;
+    /* background-color: #5bc0de; */
+    background-color: #2c3e50;
     padding: 1rem;
     margin-top: 1rem;
-    color: #d8d8d8;
+    color: #95a5a6;
     /* color: #ffffff;  */
 }
 
-.button-text{
-font-family: 'Roboto';
-font-size: 1rem;
+#gbtn{
+    background-color: #2c3e50;
 }
 
-/* 'copy to clipboard' changes color in hover. not sure it's needed in light mode */
+ form #generate:hover{
+    background-color: #34495e;
+}
+#gbtn:hover{
+    background-color: #34495e;
+}
+
+.button-text, button{
+font-family: 'Darker Grotesque', sans-serif;
+font-size: 1rem;
+background-color: #34495e;
+color: #95a5a6;
+}
+
+/* 'copy to clipboard' changes color in hover. not sure it's needed in blue mode,keeping for 'light' mode */
  /* button .button-text:hover{
     background-color: #5bc0de;
 } */
 
-
+footer{
+    background-color: #34495e;
+}
 footer a{
     color: #5bc0de;
+    
 }
 
 footer a:hover{
-    color: black;
+    color: #2c3e50;
 }
