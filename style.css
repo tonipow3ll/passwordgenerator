@@ -1,21 +1,24 @@
 
 html body{
-    /* font-family: 'Roboto', sans-serif; */
     font-family: 'Darker Grotesque', sans-serif;
     background-color: #2c3e50;
 }
+/* font color heading / paragraph elments */
+
 h1 ,h6, p{
     color: #95a5a6;
 }
+/* changed font size for P - standard font size was difficult to read */
+
 p{
     font-size: large;
 }
-section.card{
-    background-color: #34495e;
-}
 /* styles 'body' of generator */
 
+section.card{
+    background-color: #34495e;
 
+}
 main, div, .card, h1{
     /* max-width:75%; */
     align-content: center;
@@ -28,24 +31,25 @@ main, div, .card, h1{
     border-radius: 5rem;
 }
 
- button{
+/* button styling  */
+
+button{
     border: transparent;
  } 
- #generate{
+
+#generate{
     border-radius: 5rem;
-    /* background-color: #5bc0de; */
     background-color: #2c3e50;
     padding: 10px;
     margin-top: 1rem;
     color: #95a5a6;
-    /* color: #ffffff;  */
 }
 
 #gbtn{
     background-color: #2c3e50;
 }
 
- form #generate:hover{
+form #generate:hover{
     background-color: #34495e;
 }
 #gbtn:hover{
@@ -59,11 +63,12 @@ background-color: #34495e;
 color: #95a5a6;
 }
 
-/* 'copy to clipboard' changes color in hover. not sure it's needed in blue mode,keeping for 'light' mode */
+/* 'copy to clipboard' changes color in hover. not sure it's needed in blue mode,keeping for 'light' mode/later use */
  /* button .button-text:hover{
     background-color: #5bc0de;
 } */
 
+/* footer styling */
 footer{
     background-color: #34495e;
 }

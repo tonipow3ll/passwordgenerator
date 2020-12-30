@@ -18,14 +18,8 @@ form.addEventListener("submit" , function(e){
     writePassword();
 });
 
-
-// console.log(form.querySelector("#generate"));
-
-
-
 // Write password to the #password input
 function writePassword() {
-    // add slider here also, below links number input to value
     let complexity = document.getElementById("userNumber").value;
 
     let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890?<>^&*()}|]!@#$%/";
@@ -36,14 +30,13 @@ function writePassword() {
     for(var i = 1; i <= complexity; i++){
         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
         
-        // return password;
     }
 
     //   add password to textbox / display area 
  document.getElementById("displayPW").value = password;
 }
 
-// copy to clipboard function below DOESN'T WORK YET, DOUBLECHECK YOUR ID'S 
+// copy to clipboard function 
 function copyToClipboard(){
     const copyText = document.getElementById("displayPW");
     copyText.select();
