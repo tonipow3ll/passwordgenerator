@@ -1,4 +1,4 @@
-# passwordgenerator
+# Random Password Generator
 ### For this assignment - we were tasked with making a password generator.
 ### A user can click on the 'generate' button, and a string of random uppercase, lowercase, numbers, and symbols will appear. Users are able to select the total length of their desired password, and copy it to their clipboard for later use. 
 
