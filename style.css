@@ -1,34 +1,26 @@
 
 *{
     font-family: 'Roboto', sans-serif;
-    /* background: #708090; */
 }
 /* styles 'body' of generator */
+
 main, div, div.card{
     /* max-width:75%; */
     align-content: center;
     /* background-color: chartreuse; */
 }
 
-div.button{
-    align-items: center;
-}
 .card {
     align-items: center;
     max-width: 75%;
 }
-h1{
-    align-items: center;
-}
-.user-input{
-    max-width: 3rem;
-}
-/* .far{
-    font-family: 'Roboto', sans-serif;
-} */
 
-button{
+ button{
     border: transparent;
+ } 
+
+ form #generate:hover{
+    background-color: black;
 }
 
 #generate{
@@ -36,10 +28,25 @@ button{
     background-color: #5bc0de;
     padding: 1rem;
     margin-top: 1rem;
+    color: #d8d8d8;
     /* color: #ffffff;  */
 }
 
 .button-text{
 font-family: 'Roboto';
+font-size: 1rem;
+}
 
+/* 'copy to clipboard' changes color in hover. not sure it's needed in light mode */
+ /* button .button-text:hover{
+    background-color: #5bc0de;
+} */
+
+
+footer a{
+    color: #5bc0de;
+}
+
+footer a:hover{
+    color: black;
 }
