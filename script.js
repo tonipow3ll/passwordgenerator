@@ -10,31 +10,58 @@ function matchingNumbers(e){
     userNumber.value = value
 }
 
-// document.getElementById("generate")
 
+
+// keeps the page from refreshing when 'generate' button is pressed 
 const form = document.getElementById("potatoes")
 form.addEventListener("submit" , function(e){
     e.preventDefault()
     writePassword();
 });
 
-// Write password to the #password input
-function writePassword() {
-    let complexity = document.getElementById("userNumber").value;
+let lowercase = "abcdefghijklmnopqrstuvwxyz";
+let uppercase = "ABDEFGHIJKLMNOPQRSTUVWXYZ";
+let num = "123456789";
+let sym = "?<>^&*()}|]!@#$%/";
 
-    let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890?<>^&*()}|]!@#$%/";
-    
-    let password = "";
-    
-    // loop to generate password
-    for(var i = 1; i <= complexity; i++){
-        password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
-        
+let userNum = document.getElementById("userNumber");
+let lowerBox = document.getElementById("lower");
+let upperBox = document.getElementById("upper");
+let numBox = document.getElementById("num");
+let symBox = document.getElementById("sym");
+let sumbit = document.getElementById("generate");
+let finalPw = document.getElementById("displayPW");
+
+
+
+function writePassword(l, characters){
+
+    let password = '';
+    for (var i = 0; i<l; i++){
+        password += characters.charAt(Math.floor(Math.random() * characters.length));
     }
-
-    //   add password to textbox / display area 
- document.getElementById("displayPW").value = password;
+    return password; 
 }
+
+
+
+
+
+
+
+
+// ORIGINAL Write password to the #password input
+// function writePassword() {
+//     let complexity = document.getElementById("userNumber").value;
+//     let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890?<>^&*()}|]!@#$%/";
+//     let password = "";
+//     // loop to generate password
+//     for(var i = 1; i <= complexity; i++){
+//         password = password + values.charAt(Math.floor(Math.random() * Math.floor(values.length - 1)));
+//     }
+//     //   add password to textbox / display area 
+//  document.getElementById("displayPW").value = password;
+// }
 
 // copy to clipboard function 
 function copyToClipboard(){
