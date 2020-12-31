@@ -5,7 +5,7 @@
 
 [See the v1 of deployed project here ]()
 
-![Screen Shot 2020-12-10 at 18 24 25](https://user-images.githubusercontent.com/72999798/103382187-0863d700-4abc-11eb-912b-dfb20f952a3e.png)
+![Screen Shot 2020-12-10 at 18 24 25](https://user-images.githubusercontent.com/72999798/103426698-51359180-4b89-11eb-8d83-1bcdbf7fd17c.png)
 
 
 #### The version shown below does not include some features that I am still working on. The next version that I am working on will default to lowercase values, but will give users the option to add 'uppercase values' 'numbers' or 'symbols' , combine all four options, or use only one option. 
