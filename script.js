@@ -10,12 +10,6 @@ function matchingNumbers(e){
     userNumber.value = value
 }
 
-// keeps the page from refreshing when 'generate' button is pressed 
-// const form = document.getElementById("potatoes")
-// form.addEventListener("submit" , function(e){
-//     e.preventDefault()
-//     writePassword();
-// });
 
 let char = "abcdefghijklmnopqrstuvwxyz";
 let uppercase = "ABDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -30,7 +24,9 @@ let symBox = document.getElementById("sym");
 let submit = document.getElementById("generate");
 let finalPw = document.getElementById("displayPW");
 
-submit.addEventListener("click", function(e){
+
+const form = document.getElementById("potatoes")
+form.addEventListener("submit", function(e){
    let characters = char;
     (upperBox.checked) ? characters += uppercase : '';
     (numBox.checked) ? characters += num : '';
