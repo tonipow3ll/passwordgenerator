@@ -28,9 +28,11 @@ let finalPw = document.getElementById("displayPW");
 const form = document.getElementById("potatoes")
 form.addEventListener("submit", function(e){
    let characters = char;
+    // (lowerBox.checked) ? characters += char : '';
     (upperBox.checked) ? characters += uppercase : '';
     (numBox.checked) ? characters += num : '';
     (symBox.checked) ? characters += sym :'';
+
     e.preventDefault()
     finalPw.value = writePassword(userNum.value, characters);
 });

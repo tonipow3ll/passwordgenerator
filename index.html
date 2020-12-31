@@ -25,20 +25,18 @@
                         <div>
                            <input class="form-control my-3 text-wrap" type="text" placeholder="password will appear here" aria-label="Password" id="displayPW" readonly>
                          
-                <!-- modal copy to clipboard button -->
-
-            <button onclick="copyToClipboard()" type="button" class="far fa-copy fa-lg" data-toggle="modal" data-target=".bd-example-modal-sm"><span class="button-text">Copy to Clipboard</span></button>
-
-                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
-                 <div class="modal-dialog modal-sm">
-                      <div class="modal-content" >
-                         Password has been copied to clipboard
-                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                              </div>
+                            <!-- modal copy to clipboard button -->
+                             <button onclick="copyToClipboard()" type="button" class="far fa-copy fa-lg" data-toggle="modal" data-target=".bd-example-modal-sm"><span class="button-text">Copy to Clipboard</span></button>
+                                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                                 <div class="modal-dialog modal-sm">
+                                     <div class="modal-content" >
+                                     Password has been copied to clipboard
+                                       <div class="modal-footer">
+                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                      </div>
+                                     </div>
                                 </div>
-                                    </div>
+                            </div>
          
  
                 
@@ -49,26 +47,26 @@
                          <!-- user input area, range slider -->
                             <form id="potatoes">
                                  <p class="py-1">Password Length</p>
-                                 <input type="range" min="8" max="128" id="userRange" value="13">
-                                 <input type="number" min="8" max="128" id="userNumber" value="13">
-                                <div>
-                                    <p>Check the boxes below if you would like to include uppercase letters, numbers or symbols. No selections will default to lowercase characters only. </p>
-                                    <!-- <input id="lower" type="checkbox"checked>
-                                 <label >lowercase</label> -->
+                                    <input type="range" min="8" max="128" id="userRange" value="13">
+                                    <input type="number" min="8" max="128" id="userNumber" value="13">
+                                     <div>
+                                        <p>Check the boxes below if you would like to include uppercase letters, numbers or symbols. No selections will default to lowercase characters only. </p>
+                                            <!-- <input id="lower" type="checkbox"checked>
+                                            <label >lowercase</label> -->
 
-                                 <input id="upper" type="checkbox"checked>
-                                 <label>Uppercase</label>
+                                             <input id="upper" type="checkbox"checked>
+                                             <label>Uppercase</label>
 
-                                 <input id="num" type="checkbox"checked>
-                                 <label>Numbers</label>
+                                             <input id="num" type="checkbox"checked>
+                                             <label>Numbers</label>
                        
-                                 <input id="sym" type="checkbox"  checked>
-                                 <label>Symbols</label>
-                                </div>
+                                             <input id="sym" type="checkbox"  checked>
+                                             <label>Symbols</label>
+                                    </div>
                              <!-- generate button below -->
-                                 <div>
-                                      <button id="generate" type="submit" class="fas fa-key"><span id="gbtn" class="button-text">Generate</span></button>
-                                 </div>
+                                        <div>
+                                            <button id="generate" type="submit" class="fas fa-key"><span id="gbtn" class="button-text">Generate</span></button>
+                                         </div>
                             </form>
                     </div>
              </section>
@@ -81,7 +79,10 @@
         <a href="https://tonipow3ll.github.io/" class="fab fa-github fa-2x"></a>
     </div>
 </footer>
+<!-- password function tag -->
 <script src="script.js"></script>
+
+<!-- bootstrap JS for modal  -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
