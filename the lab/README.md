@@ -17,10 +17,10 @@
 
 # Credits
 ### Many thanks to [Scott Byer](https://github.com/switch120), [Mike Fearly](https://michaelfearnley.com/) and Bobby Hoffman- for sharing their knowledge with us! 
-### Huge thank you to S.A. as well, for being a good friend, and (wheter intentionally or not) giving me a bit of a nudge in the right direction, and helping me see things more clearly. 
+#### Huge thank you to S.A. as well, for being a good friend, and (wheter intentionally or not) giving me a bit of a nudge in the right direction, and helping me see things more clearly. 
 
 
-#### UNH Full Stack Development Bootcamp
+### UNH Full Stack Development Bootcamp
 
 # Questions, comments, feel like chatting?
 ### Get in touch!
