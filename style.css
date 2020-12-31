@@ -5,7 +5,7 @@ html body{
 }
 /* font color heading / paragraph elments */
 
-h1 ,h6, p{
+h1 ,h6, p, label{
     color: #95a5a6;
 }
 /* changed font size for P - standard font size was difficult to read */
