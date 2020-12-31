@@ -10,29 +10,34 @@ function matchingNumbers(e){
     userNumber.value = value
 }
 
-
-
 // keeps the page from refreshing when 'generate' button is pressed 
-const form = document.getElementById("potatoes")
-form.addEventListener("submit" , function(e){
-    e.preventDefault()
-    writePassword();
-});
+// const form = document.getElementById("potatoes")
+// form.addEventListener("submit" , function(e){
+//     e.preventDefault()
+//     writePassword();
+// });
 
-let lowercase = "abcdefghijklmnopqrstuvwxyz";
+let char = "abcdefghijklmnopqrstuvwxyz";
 let uppercase = "ABDEFGHIJKLMNOPQRSTUVWXYZ";
 let num = "123456789";
 let sym = "?<>^&*()}|]!@#$%/";
 
 let userNum = document.getElementById("userNumber");
-let lowerBox = document.getElementById("lower");
+// let lowerBox = document.getElementById("lower");
 let upperBox = document.getElementById("upper");
 let numBox = document.getElementById("num");
 let symBox = document.getElementById("sym");
-let sumbit = document.getElementById("generate");
+let submit = document.getElementById("generate");
 let finalPw = document.getElementById("displayPW");
 
-
+submit.addEventListener("click", function(e){
+   let characters = char;
+    (upperBox.checked) ? characters += uppercase : '';
+    (numBox.checked) ? characters += num : '';
+    (symBox.checked) ? characters += sym :'';
+    e.preventDefault()
+    finalPw.value = writePassword(userNum.value, characters);
+});
 
 function writePassword(l, characters){
 
