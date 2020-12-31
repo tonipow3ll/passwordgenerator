@@ -24,8 +24,25 @@
                       <!-- text area -->
                         <div>
                            <input class="form-control my-3 text-wrap" type="text" placeholder="password will appear here" aria-label="Password" id="displayPW" readonly>
-                           <button onclick="copyToClipboard()" class="far fa-copy fa-lg"><span class="button-text">Copy to Clipboard</span></button>
-                        </div>
+                         
+                <!-- modal copy to clipboard button -->
+
+            <button onclick="copyToClipboard()" type="button" class="far fa-copy fa-lg" data-toggle="modal" data-target=".bd-example-modal-sm"><span class="button-text">Copy to Clipboard</span></button>
+
+                <div class="modal fade bd-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+                 <div class="modal-dialog modal-sm">
+                      <div class="modal-content">
+                         Password has been copied to clipboard
+                             </div>
+                                </div>
+                                    </div>
+         
+
+                
+                    <!-- original copy to clipboard button  -->
+                           <!-- <button onclick="copyToClipboard()" class="far fa-copy fa-lg"><span class="button-text">Copy to Clipboard</span></button>
+                        </div> -->
+    
                          <!-- user input area, range slider -->
                             <form id="potatoes">
                                  <p class="py-1">Password Length</p>
