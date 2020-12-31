@@ -10,12 +10,13 @@ function matchingNumbers(e){
     userNumber.value = value
 }
 
-
+// declaring variables
 let char = "abcdefghijklmnopqrstuvwxyz";
 let uppercase = "ABDEFGHIJKLMNOPQRSTUVWXYZ";
 let num = "123456789";
 let sym = "?<>^&*()}|]!@#$%/";
 
+// declaring all elements in HTML to be used in this script 
 let userNum = document.getElementById("userNumber");
 // let lowerBox = document.getElementById("lower");
 let upperBox = document.getElementById("upper");
@@ -25,6 +26,7 @@ let submit = document.getElementById("generate");
 let finalPw = document.getElementById("displayPW");
 
 
+// form which checks user input 
 const form = document.getElementById("potatoes")
 form.addEventListener("submit", function(e){
    let characters = char;
@@ -36,7 +38,7 @@ form.addEventListener("submit", function(e){
     e.preventDefault()
     finalPw.value = writePassword(userNum.value, characters);
 });
-
+// function for creating password
 function writePassword(l, characters){
 
     let password = '';
