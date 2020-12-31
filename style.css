@@ -17,9 +17,8 @@ p{
 
 section.card{
     background-color: #34495e;
-
 }
-main, div, .card, h1{
+main, div, .card, h1, section{
     /* max-width:75%; */
     align-content: center;
     /* background-color: #34495e; */
