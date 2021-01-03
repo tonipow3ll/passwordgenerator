@@ -5,7 +5,9 @@
 
 ![Screen Shot 2020-12-10 at 18 24 25](https://user-images.githubusercontent.com/72999798/103426698-51359180-4b89-11eb-8d83-1bcdbf7fd17c.png)
 
-
+View the deployed application here 
+### Google Fonts was used for all fonts on this application. 
+### FontAwesome Icons were used for the 'copy to clipboard' , 'generate', as well as LinkedIn and Github icons. 
 
 # Credits
 ### Many thanks to [Scott Byer](https://github.com/switch120), [Mike Fearly](https://michaelfearnley.com/) and Bobby Hoffman- for sharing their knowledge with us! 
