@@ -1,24 +1,15 @@
 # Random Password Generator
-### For this assignment - we were tasked with making a password generator.
-### A user can click on the 'generate' button, and a string of random uppercase, lowercase, numbers, and symbols will appear. Users are able to select the total length of their desired password, and copy it to their clipboard for later use. 
+## For this assignment - we were tasked with making a password generator.
+### A user can click on the 'generate' button, and a string of random lowercase letters, with numbers, or symbols will appear. By default if no selections are made the generator will only use lowercase characters. Users are able to select the total length of their desired password, and copy it to their clipboard for later use. 
 
-
-[See the v1 of deployed project here ]()
 
 ![Screen Shot 2020-12-10 at 18 24 25](https://user-images.githubusercontent.com/72999798/103426698-51359180-4b89-11eb-8d83-1bcdbf7fd17c.png)
-
-
-#### The version shown below does not include some features that I am still working on. The next version that I am working on will default to lowercase values, but will give users the option to add 'uppercase values' 'numbers' or 'symbols' , combine all four options, or use only one option. 
-
-
-[here is what the final version will look like]
 
 
 
 # Credits
 ### Many thanks to [Scott Byer](https://github.com/switch120), [Mike Fearly](https://michaelfearnley.com/) and Bobby Hoffman- for sharing their knowledge with us! 
-#### Huge thank you to S.A. as well, for being a good friend, and (wheter intentionally or not) giving me a bit of a nudge in the right direction, and helping me see things more clearly. 
-
+#### Huge thank you to S.A. as well, for giving me a nudge in the right direction with this project. 
 
 ### UNH Full Stack Development Bootcamp
 

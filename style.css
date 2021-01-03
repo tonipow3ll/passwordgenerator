@@ -5,7 +5,7 @@ html body{
 }
 /* font color heading / paragraph elments */
 
-h1 ,h6, p, label{
+h1 ,h6, p, label, form{
     color: #95a5a6;
 }
 /* changed font size for P - standard font size was difficult to read */
@@ -40,7 +40,7 @@ button{
     border-radius: 5rem;
     background-color: #2c3e50;
     padding: 10px;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     color: #95a5a6;
 }
 
