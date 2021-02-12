@@ -79,3 +79,45 @@ footer a{
 footer a:hover{
     color: #2c3e50;
 }
+
+
+ /* MEDIA QUERIES */
+ 
+ @media (min-width: 769px) { 
+  section.card{
+       min-width: 100%;
+   }
+   #potoates div.input{
+       display: flex;
+       flex-direction: column;
+   }
+  }
+  @media (max-width: 1366px){
+    section.card{
+        max-width: 75%;
+    }
+  }
+  
+  @media (max-width: 900px){
+    section.card{
+        min-width: 100%;
+   }
+   #potoates div.input{
+       display: flex;
+       flex-direction: column;
+  }
+}
+  
+  @media (max-width: 768px){
+    section.card{
+        min-width: 100%;
+   }
+   #potoates {
+       display: flex;
+       flex-direction: column;
+  }
+  
+  }
+
+
+  
