@@ -1,47 +1,44 @@
-# Random Password Generator
-## For this assignment - we were tasked with making a password generator.
-### A user can click on the 'generate' button, and a string of random lowercase letters, with numbers, or symbols will appear. By default if no selections are made the generator will only use lowercase characters. Users are able to select the total length of their desired password, and copy it to their clipboard for later use. 
+# Random Password Generator 
+### ![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+### A random password generator that allows users to enter in the desired amount of characters, and if they would like add special characters, numbers, or uppercase characters. If no selections are made the application defaults to only use lowercase letters. 
+# ![ScreenShot](https://user-images.githubusercontent.com/72999798/103426698-51359180-4b89-11eb-8d83-1bcdbf7fd17c.png)
+### [View the Deployed Application Here](https://tonipow3ll.github.io/passwordgenerator)
+
+# Table of Contents
+### [Installation](#Installation)
+### [Technologies](#Technologies)
+### [Contributors](#Contributors)
+### [Contact](#Contact)
+### [Licenses](#Licenses)
 
 
-![Screen Shot 2020-12-10 at 18 24 25](https://user-images.githubusercontent.com/72999798/103426698-51359180-4b89-11eb-8d83-1bcdbf7fd17c.png)
+# Installation 
+###  Clone repository to your local device. Test by opening the index.html file in your browser. If it looks good, it's working right. 
 
-[View the deployed application here](https://tonipow3ll.github.io/passwordgenerator/)
+# Technologies
+### Google Fonts  
+### Font Awesome  
+### Bootstrap
 
 
-#### Google Fonts was used for all fonts on this application. 
-#### FontAwesome Icons were used for the 'copy to clipboard' , 'generate', as well as LinkedIn and Github icons. 
-####
+# Usage
+### This application was created by Toni Powell. Feel free to reach out via [email](tonipow3ll@gmail.com) or open up a GitHub issue, or pull request if there is something you would like to add. 
 
 # Credits
 ### Many thanks to [Scott Byer](https://github.com/switch120), [Mike Fearly](https://michaelfearnley.com/) and Bobby Hoffman- for sharing their knowledge with us! 
 #### Huge thank you to S.A. as well, for giving me a nudge in the right direction with this project. 
 
-### UNH Full Stack Development Bootcamp
+# Contributors
+### Toni Powell
 
-# Questions, comments, feel like chatting?
-### Get in touch!
+
+# Contact/ General Questions:
 ### [LinkedIn](www.linkedin.com/in/tonipowell13)
 ### [Email](tonipow3ll@gmail.com)
-### [Github](tonipow3ll.github.io)
-
+### [GitHub](tonipow3ll.github.io)
 
 # Licenses
-### Copyright (c) [2020] [Toni Powell]
+### Copyright (c) 2020 Toni Powell
+### [MIT License](https://opensource.org/licenses/MIT)
+### [Licensing Information](https://opensource.org/licenses/MIT)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
